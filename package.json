@@ -13,5 +13,12 @@
   "scripts": {
     "start": "node push.js"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^2.5.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": false
+  }
 }
