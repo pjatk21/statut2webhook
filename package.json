@@ -1,0 +1,17 @@
+{
+  "name": "statut2webhook",
+  "version": "1.0.0",
+  "description": "GH Action scripts for auto update for discord's terms",
+  "author": "Krystian Postek <krystian@postek.eu>",
+  "license": "MIT",
+  "dependencies": {
+    "discord-webhook-node": "^1.1.8",
+    "dotenv": "^10.0.0",
+    "jsdom": "^19.0.0",
+    "showdown": "^1.9.1"
+  },
+  "scripts": {
+    "start": "node push.js"
+  },
+  "type": "module"
+}

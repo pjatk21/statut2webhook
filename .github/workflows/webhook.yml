@@ -1,0 +1,15 @@
+name: Update terms and conditions
+
+on: workflow_dispatch
+
+jobs:
+  prepareEnv:
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          cache: 'yarn'
+      - run: yarn install
+  pushWebhook:
+    steps:
+      - run: yarn start
