@@ -46,12 +46,17 @@ const embeds = new Array()
 embeds.push(
   new MessageBuilder()
     .setTitle(titleBlock.innerHTML)
+    .setFooter(`Administracja serwera`)
+    .setColor(0x991d12)
+    .setTimestamp()
 )
 
+let sectionCounter = 0;
 for (const block of blocks) {
   const embed = new MessageBuilder()
-  embed.setTitle(block.title.innerHTML)
-  embed.setDescription(block.description.innerHTML)
+  embed.setTitle(`§${++sectionCounter} ${block.title.innerHTML}`)
+  embed.setDescription(`*${block.description.innerHTML}*`)
+  embed.setColor(0x991d12)
 
   let counter = 0
   for (const row of block.points) {
@@ -60,6 +65,7 @@ for (const block of blocks) {
   embeds.push(embed)
 }
 
+// push embeds
 const hook = new Webhook(process.env.WEBHOOK)
 for (const embed of embeds) {
   console.log('Pushing embed', embed)
