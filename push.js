@@ -4,9 +4,9 @@ import { JSDOM } from "jsdom"
 import { readFile } from "fs/promises"
 import { Webhook, MessageBuilder } from "discord-webhook-node"
 
-// ### Loading STATUS and preparing for parsing ###
+// ### Loading STATUT and preparing for parsing ###
 
-// Load `STATUS.md` from this GitHub repo
+// Load `STATUT.md` from this GitHub repo
 const doc = await readFile("STATUT.md")
 
 // Convert Markdown to HTML, then create an DOM tree out of it
@@ -114,7 +114,7 @@ for (const block of blocks) {
   ### Push all embeds one-by-one into Discord server ###
 
   It creates an representation of our
-  Markdown-written STATUS in Discord webhook embeds,
+  Markdown-written STATUT in Discord webhook embeds,
   making an more native look to `PJATK 21` server.
 
 */
