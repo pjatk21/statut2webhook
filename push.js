@@ -3,7 +3,7 @@ import showdown from "showdown"
 import { JSDOM } from "jsdom"
 import { readFile } from "fs/promises"
 import { Webhook, MessageBuilder } from "discord-webhook-node"
-import turndown from "turndown";
+import turndown from "turndown"
 
 // ### Loading STATUT and preparing for parsing ###
 
@@ -39,11 +39,11 @@ let helper = {
 // For each child in DOM tree
 for (const child of dom.children) {
   // For main title... (we treat headline level 1 as it)
-  if (child.tagName === 'H1') {
+  if (child.tagName === "H1") {
     // assign it to helper variable
     titleBlock = child
     // For each section title... (we treat headline level 2 as it)
-  } else if (child.tagName === 'H2') {
+  } else if (child.tagName === "H2") {
     // when we have already assigned section points to `helper` Object...
     if (helper.points.length > 0) {
       // push ready section to our helper array `blocks`
@@ -60,14 +60,14 @@ for (const child of dom.children) {
       helper.title = child
     }
     // For each list of points...
-  } else if (child.tagName === 'OL') {
+  } else if (child.tagName === "OL") {
     // collect them all...
-    for (const row of child.getElementsByTagName('li')) {
+    for (const row of child.getElementsByTagName("li")) {
       // ... and push them to `helper` Object
       helper.points.push(row)
     }
     // For each section description...
-  } else if (child.tagName === 'P')
+  } else if (child.tagName === "P")
     // assign it to `helper` Object
     helper.description = child
 }
@@ -91,7 +91,7 @@ embeds.push(
     .setTimestamp()
 )
 // Create an section embed for each one of them
-let sectionCounter = 0;
+let sectionCounter = 0
 for (const block of blocks) {
   const embed = new MessageBuilder()
   // with auto-incrementing section title
@@ -102,7 +102,7 @@ for (const block of blocks) {
   embed.setColor(0x991d12)
 
   let counter = 0
-  var turndownService = new turndown;
+  var turndownService = new turndown()
   // with all section points auto-incrementing
   for (const row of block.points) {
     const rowToAdd = turndownService.turndown(row.innerHTML)
@@ -126,6 +126,6 @@ for (const block of blocks) {
 const hook = new Webhook(process.env.WEBHOOK)
 // send embeds one-by-one to our server
 for (const embed of embeds) {
-  console.log('Pushing embed', embed)
+  console.log("Pushing embed", embed)
   await hook.send(embed)
 }
