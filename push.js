@@ -105,8 +105,8 @@ for (const block of blocks) {
   var turndownService = new turndown;
   // with all section points auto-incrementing
   for (const row of block.points) {
-    var row_to_add = turndownService.turndown(row.innerHTML)
-    embed.addField(`${++counter}.`, row_to_add)
+    const rowToAdd = turndownService.turndown(row.innerHTML)
+    embed.addField(`${++counter}.`, rowToAdd)
   }
   // push each section embed to our array
   embeds.push(embed)
