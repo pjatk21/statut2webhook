@@ -39,7 +39,7 @@ Wytyczne dt. zgłaszania zażaleń i problemów związanych z serwerem
 1. **Dowolną** rzecz, która ci przeszkadza na serwerze możesz zgłosić poprzez kanał #propozycje-dt-serwera lub pisząc prywatną wiadomość do dowolnego członka administracji lub helpdesku.
 2. Jeżeli zgłaszasz jakąś nieprawidłowość postaraj się wzskazać konkretnych użytkowników lub konkretne wiadomości. 
 3. Pisanie do wykładowców zażaleń na ten serwer nic wam nie da.
-4. Jeżeli jednak masz mniej niż 3iq i piszesz do wykładowcy o tym co cię boli, to pamiętaj, żeby podać **dokładną** nazwę serwera.
+4. Jeżeli i tak zamierzasz piszać do wykładowcy o tym co cię boli, to pamiętaj, żeby podać **dokładną** nazwę serwera.
 
 ## Zaproszenia do serwera
 
