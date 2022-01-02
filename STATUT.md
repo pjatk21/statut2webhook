@@ -32,6 +32,15 @@ Zasady dt. wykorzystywania wizerunków osób powiązanych z PJATK.
 1.  Zakaz wykorzystywania wizerunku wykładowców/ćwiczeniowców/pracowników w sposób obraźliwy i ujmujący godności.
 2.  Administracja zastrzega sobie prawo do usuwania treści objętych paragrafem § 4.1 wskazanych przez wykładowcę/ćwiczeniowca/pracownika uczelni. Wnioski o usunięcie będą poddawane głosowaniu administracji i upubliczniane.
 
+## Zgłaszanie problemów, zażaleń, skarg, doniesień i nieprawidłowości
+
+Wytyczne dt. zgłaszania zażaleń i problemów związanych z serwerem
+
+1. **Dowolną** rzecz, która ci przeszkadza na serwerze możesz zgłosić poprzez kanał #propozycje-dt-serwera lub pisząc prywatną wiadomość do dowolnego członka administracji lub helpdesku.
+2. Jeżeli zgłaszasz jakąś nieprawidłowość postaraj się wzskazać konkretnych użytkowników lub konkretne wiadomości. 
+3. Pisanie do wykładowców zażaleń na ten serwer nic wam nie da.
+4. Jeżeli jednak masz mniej niż 3iq i piszesz do wykładowcy o tym co cię boli, to pamiętaj, żeby podać **dokładną** nazwę serwera.
+
 ## Zaproszenia do serwera
 
 Zasady dt. zapraszania nowych członków serwera.
