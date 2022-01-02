@@ -36,10 +36,15 @@ Zasady dt. wykorzystywania wizerunków osób powiązanych z PJATK.
 
 Wytyczne dt. zgłaszania zażaleń i problemów związanych z serwerem
 
-1. **Dowolną** rzecz, która ci przeszkadza na serwerze możesz zgłosić poprzez kanał #propozycje-dt-serwera lub pisząc prywatną wiadomość do dowolnego członka administracji lub helpdesku.
-2. Jeżeli zgłaszasz jakąś nieprawidłowość postaraj się wzskazać konkretnych użytkowników lub konkretne wiadomości. 
-3. Pisanie do wykładowców zażaleń na ten serwer nic wam nie da.
-4. Jeżeli i tak zamierzasz piszać do wykładowcy o tym co cię boli, to pamiętaj, żeby podać **dokładną** nazwę serwera.
+1. **Dowolną** rzecz, która ci przeszkadza na serwerze możesz zgłosić poprzez kanał `#problemy-z-serwerem`.
+2. Jeżeli zgłaszasz jakąś nieprawidłowość postaraj się wskazać konkretnych użytkowników lub konkretne wiadomości - używaj to tego opcji `Kopiuj link z wiadomością`.
+3. Ścieżka legislacyjna wygląda następująco:
+    - Server Helpdesk
+    - administracja
+    - PJATK
+5. Pisanie do wykładowców zażaleń na ten serwer jest **kategorycznie niewskazane** (i nic wam nie da).
+6. **W ostateczności**, jeżeli czujesz się *bardzo* skrzywdzony działaniani na tym serwerze, pisząc do wykładowców, pamiętaj o podaniu **dokładnej** nazwy serwera.
+7. Próby pomówienia i bezpodstawnego szargania dobrego imienia serwera będą skutkowały permanentnym banem!
 
 ## Zaproszenia do serwera
 
