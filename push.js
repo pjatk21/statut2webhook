@@ -3,6 +3,7 @@ import showdown from "showdown"
 import { JSDOM } from "jsdom"
 import { readFile } from "fs/promises"
 import { Webhook, MessageBuilder } from "discord-webhook-node"
+import turndown from "turndown";
 
 // ### Loading STATUT and preparing for parsing ###
 
@@ -101,9 +102,11 @@ for (const block of blocks) {
   embed.setColor(0x991d12)
 
   let counter = 0
+  var turndownService = new turndown;
   // with all section points auto-incrementing
   for (const row of block.points) {
-    embed.addField(`${++counter}.`, row.innerHTML)
+    var row_to_add = turndownService.turndown(row.innerHTML)
+    embed.addField(`${++counter}.`, row_to_add)
   }
   // push each section embed to our array
   embeds.push(embed)
