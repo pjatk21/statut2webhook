@@ -7,6 +7,7 @@ Ogólne zasady obowiązujące na serwerze.
 1.  Wszystkie poniżej zakazane treści, będą usuwane, bez podawania przyczyny, a w wielokrotnych przypadkach osoby będą usuwane z serwera.
 2.  Administracja nie zobowiązuje się do podawania przyczyn usuwania treści lub użytkowników z serwera.
 3.  W przypadkach nieobjętych regulaminem, administracja zastrzega sobie prawo do działań nieuwzględnionych w regulaminie poprzedzonych tajnym głosowaniem.
+4.  Zakaz oferowania pomocy przy pisaniu kolokwiów/egzaminu. Tyczy się studentów naszej i innych uczelni. Takowe oferty będą usuwane!
 
 ## Ograniczenia treści
 
